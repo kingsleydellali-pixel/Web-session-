@@ -1,0 +1,17 @@
+{
+    "name": "pair session",
+    "description": "Web Session Generator",
+    "logo": "https://i.ibb.co/SXQ0JCYX/jawadmd.jpg",
+    "repository": "NEW REPO",
+    "keywords": ["KingsleyxmdTech","𝔎𝔦𝔫𝔤_𝔅𝔩𝔢𝔰𝔰 𝔗𝔢𝔠𝔥"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
